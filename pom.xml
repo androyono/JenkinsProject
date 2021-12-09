@@ -12,11 +12,24 @@
   </properties>
   
   <dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+       <directory>src/test/java/Test</directory>
+       <includes>
+         <include>**/test/java/Test.java</include>
+        </includes>
+     </resource>
+    </resources>
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    </build>
   </dependencies>
+  
 </project>
