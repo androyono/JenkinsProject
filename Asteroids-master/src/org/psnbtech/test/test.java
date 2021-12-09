@@ -1,3 +1,5 @@
+package org.psnbtech.test;
+
 import org.junit.Before;
 import org.junit.Test;
 
