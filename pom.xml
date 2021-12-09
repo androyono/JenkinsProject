@@ -29,7 +29,7 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.5.1</version>
       <configuration>
-        <source>${jdk.level}</source>
+        <source>src/java/main</source>
         <target>${jdk.level}</target>
       </configuration>
     
