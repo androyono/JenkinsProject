@@ -21,7 +21,6 @@ import org.psnbtech.util.Clock;
  * @author Brendan Jones
  *
  */
-// This is a change to game java
 public class Game extends JFrame {
 	
 	/**
