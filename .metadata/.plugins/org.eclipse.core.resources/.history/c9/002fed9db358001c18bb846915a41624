@@ -289,7 +289,7 @@ public class Game extends JFrame {
 		//Initialize the engine's variables.
 		this.random = new Random();
 		this.entities = new LinkedList<Entity>();
-		this.pendingEntities = new ArrayList<Entity>();
+		this.pendingEntities = new ArrayList<>();
 		this.player = new Player();
 		
 		//Set the variables to their default values.

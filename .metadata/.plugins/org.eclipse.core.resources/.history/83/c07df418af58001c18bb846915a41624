@@ -109,7 +109,7 @@ public class Player extends Entity {
 	 */
 	public Player() {
 		super(new Vector2(WorldPanel.WORLD_SIZE / 2.0, WorldPanel.WORLD_SIZE / 2.0), new Vector2(0.0, 0.0), 10.0, 0);
-		this.bullets = new ArrayList<Bullet>();
+		this.bullets = new ArrayList();
 		this.rotation = DEFAULT_ROTATION;
 		this.thrustPressed = false;
 		this.rotateLeftPressed = false;
