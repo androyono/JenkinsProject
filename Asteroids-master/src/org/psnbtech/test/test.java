@@ -1,9 +1,10 @@
 package org.psnbtech.test;
 
+import static org.junit.Assert.*;
+import org.psnbtech.util.Clock;
+
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ClockTest {
     Clock clock;
@@ -13,15 +14,15 @@ public class ClockTest {
     }
 
     @Test
-    public void testReset() {
-        clock.elapsedCycles = 100;
+    public void testResetElapsedTime() {
+        clock.elapsedCycles = 5;
         clock.reset();
-        assertEquals(0, clock.elapsedCycles);
+        assertTrue(clock.elapsedCycles == 0);
     }
 
     @Test
-    public void testIsPaused() {
-        clock.isPaused = false;
-        assertFalse(clock.isPaused);
+    public void testLastUpdate() {
+        clock.lastUpdate = 5;
+        assertFalse(clock.lastUpdate == 10);
     }
 }
