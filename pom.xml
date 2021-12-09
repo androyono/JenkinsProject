@@ -30,7 +30,7 @@
     <version>3.5.1</version>
       <configuration>
         <source>src/java/main</source>
-        <target>${jdk.level}</target>
+        <target>src/java/main</target>
       </configuration>
     
 
