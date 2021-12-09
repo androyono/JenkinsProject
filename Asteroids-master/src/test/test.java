@@ -1,7 +1,7 @@
-package org.psnbtech.test;
+package test.psnbtech.test;
 
 import static org.junit.Assert.*;
-import org.psnbtech.util.Clock;
+import main.java.util.Clock;
 
 import org.junit.Before;
 import org.junit.Test;
